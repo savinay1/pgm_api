@@ -85,7 +85,7 @@ letter_cpd = TabularCPD(variable='L',
                      evidence=['G'],
                      evidence_card=[3])
 
-# buildind model
+# building model
 student_model = BayesianModel([('D', 'G'),('I', 'G'), ('I', 'S'), ('G', 'L')])
 
 # adding cpds
